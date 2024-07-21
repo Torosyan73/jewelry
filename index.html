@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta property="og:url" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="">
+    <title>Document</title>
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__row">
+                <div class="header__logo">
+                    <div class="logo">
+                        <img src="" alt="" class="logo__img"> LOGO
+                    </div>
+                </div>
+                <div class="header__nav">
+                    <nav class="nav">
+                        <ul class="nav__list">
+                            <li class="nav__list-item">
+                                <a href="#about" class="nav__list-link">О нас</a>
+                            </li>
+                            <li class="nav__list-item">
+                                <a href="#product-category" class="nav__list-link">Продукция</a>
+                            </li>
+                            <li class="nav__list-item">
+                                <a href="#contact" class="nav__list-link">Контакты</a>
+                            </li>
+                            <li class="nav__list-item">
+                                <a href="tel:" target="_blank" rel="nofollow noopener" class="nav__list-link nav__list-link--call">
+                                    Позвонить
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header__burger">
+                    <svg width="35px" height="35px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+                        <g id="SVGRepo_iconCarrier"> <path d="M5 8H13.75M5 12H19M10.25 16L19 16" stroke="#3e3e3e" stroke-linecap="round" stroke-linejoin="round"/> </g>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+
+        <section class="hero" id="hero">
+            <div class="hero__slider">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <h1 class="swiper-slide__title title-1">Заголовок</h1>
+                            <img src="./img/hero/img-1.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <h1 class="swiper-slide__title title-1">Заголовок</h1>
+                            <img src="./img/hero/img-2.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="container">
+                <div class="section__row">
+                    <div class="section__header">
+                        <h2 class="section__header-title title-2">О нас</h2>
+                    </div>
+                    <div class="about__wrapper">
+                        <div class="about__content">
+                            <div class="about__desc">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate ex non cum nam in perspiciatis nemo maxime laboriosam quaerat possimus quod dolorum alias explicabo</p>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate ex non cum nam in perspiciatis nemo maxime laboriosam quaerat possimus quod dolorum alias explicabo</p>
+                            </div>
+                        </div>
+                        <div class="about__img">
+                            <img src="./img/about/about-bg.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="product-category" id="product-category">
+            <div class="container">
+                <div class="section__row">
+                    <div class="section__header">
+                        <h2 class="section__header-title title-2">Продукция</h2>
+                    </div>
+
+                    <div class="product-category__box">
+                        <ul class="product-category__list">
+                            <li class="product-category__item product-category__item--active" data-tab="tab-1">Кольца</li>
+                            <li class="product-category__item" data-tab="tab-2">Серьги</li>
+                            <li class="product-category__item" data-tab="tab-3">Колье</li>
+                            <li class="product-category__item" data-tab="tab-4">Браслеты</li>
+                            <li class="product-category__item" data-tab="tab-5">Пусеты</li>
+                        </ul>
+                        <div class="product-category__wrapper">
+                            <div class="product-category__content" data-tab-content id="tab-1">
+                                <div class="products">
+                                    <h3 class="products__title title-3">Кольца</h3>
+                                    <div class="products__wrapper">
+                                        <div class="product">
+                                            <img src="./img/product/img-1.webp" alt="" class="product__img">
+                                            <h4 class="product__title title-4">Название</h4>
+                                            <div class="product__desc">Описание</div>
+                                            <span class="product__price">Цена</span>
+                                        </div>
+                                        <div class="product">
+                                            <img src="./img/product/img-2.webp" alt="" class="product__img">
+                                            <h4 class="product__title title-4">Название</h4>
+                                            <div class="product__desc">Описание</div>
+                                            <span class="product__price">Цена</span>
+                                        </div>
+                                        <div class="product">
+                                            <img src="./img/product/img-3.webp" alt="" class="product__img">
+                                            <h4 class="product__title title-4">Название</h4>
+                                            <div class="product__desc">Описание</div>
+                                            <span class="product__price">Цена</span>
+                                        </div>
+                                        <div class="product">
+                                            <img src="./img/product/img-1.webp" alt="" class="product__img">
+                                            <h4 class="product__title title-4">Название</h4>
+                                            <div class="product__desc">Описание</div>
+                                            <span class="product__price">Цена</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="products">
+                                    <h3 class="products__title title-3">Помолвочные кольца</h3>
+                                    <div class="products__wrapper">
+                                        <div class="product">
+                                            <img src="./img/product/img-1.webp" alt="" class="product__img">
+                                            <h4 class="product__title title-4">Название</h4>
+                                            <div class="product__desc">Описание</div>
+                                            <span class="product__price">Цена</span>
+                                        </div>
+                                        <div class="product">
+                                            <img src="./img/product/img-2.webp" alt="" class="product__img">
+                                            <h4 class="product__title title-4">Название</h4>
+                                            <div class="product__desc">Описание</div>
+                                            <span class="product__price">Цена</span>
+                                        </div>
+                                        <div class="product">
+                                            <img src="./img/product/img-3.webp" alt="" class="product__img">
+                                            <h4 class="product__title title-4">Название</h4>
+                                            <div class="product__desc">Описание</div>
+                                            <span class="product__price">Цена</span>
+                                        </div>
+                                        <div class="product">
+                                            <img src="./img/product/img-1.webp" alt="" class="product__img">
+                                            <h4 class="product__title title-4">Название</h4>
+                                            <div class="product__desc">Описание</div>
+                                            <span class="product__price">Цена</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="products">
+                                    <h3 class="products__title title-3">Обручальные кольца</h3>
+                                    <div class="products__wrapper">
+                                        <div class="product">
+                                            <img src="./img/product/img-1.webp" alt="" class="product__img">
+                                            <h4 class="product__title title-4">Название</h4>
+                                            <div class="product__desc">Описание</div>
+                                            <span class="product__price">Цена</span>
+                                        </div>
+                                        <div class="product">
+                                            <img src="./img/product/img-2.webp" alt="" class="product__img">
+                                            <h4 class="product__title title-4">Название</h4>
+                                            <div class="product__desc">Описание</div>
+                                            <span class="product__price">Цена</span>
+                                        </div>
+                                        <div class="product">
+                                            <img src="./img/product/img-3.webp" alt="" class="product__img">
+                                            <h4 class="product__title title-4">Название</h4>
+                                            <div class="product__desc">Описание</div>
+                                            <span class="product__price">Цена</span>
+                                        </div>
+                                        <div class="product">
+                                            <img src="./img/product/img-1.webp" alt="" class="product__img">
+                                            <h4 class="product__title title-4">Название</h4>
+                                            <div class="product__desc">Описание</div>
+                                            <span class="product__price">Цена</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-category__content product-category__content--hidden" data-tab-content id="tab-2">
+                                <div class="products">
+                                    <h3 class="products__title title-3">Серьги</h3>
+                                    <div class="products__wrapper">
+                                        <div class="product">
+                                            <img src="./img/product/img-1.webp" alt="" class="product__img">
+                                            <h4 class="product__title title-4">Название</h4>
+                                            <div class="product__desc">Описание</div>
+                                            <span class="product__price">Цена</span>
+                                        </div>
+                                        <div class="product">
+                                            <img src="./img/product/img-2.webp" alt="" class="product__img">
+                                            <h4 class="product__title title-4">Название</h4>
+                                            <div class="product__desc">Описание</div>
+                                            <span class="product__price">Цена</span>
+                                        </div>
+                                        <div class="product">
+                                            <img src="./img/product/img-3.webp" alt="" class="product__img">
+                                            <h4 class="product__title title-4">Название</h4>
+                                            <div class="product__desc">Описание</div>
+                                            <span class="product__price">Цена</span>
+                                        </div>
+                                        <div class="product">
+                                            <img src="./img/product/img-1.webp" alt="" class="product__img">
+                                            <h4 class="product__title title-4">Название</h4>
+                                            <div class="product__desc">Описание</div>
+                                            <span class="product__price">Цена</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-category__content product-category__content--hidden" data-tab-content id="tab-3">
+                                <div class="products">
+                                    <h3 class="products__title title-3">Колье</h3>
+                                    <div class="products__wrapper">
+                                        <div class="product">
+                                            <img src="./img/product/img-1.webp" alt="" class="product__img">
+                                            <h4 class="product__title title-4">Название</h4>
+                                            <div class="product__desc">Описание</div>
+                                            <span class="product__price">Цена</span>
+                                        </div>
+                                        <div class="product">
+                                            <img src="./img/product/img-2.webp" alt="" class="product__img">
+                                            <h4 class="product__title title-4">Название</h4>
+                                            <div class="product__desc">Описание</div>
+                                            <span class="product__price">Цена</span>
+                                        </div>
+                                        <div class="product">
+                                            <img src="./img/product/img-3.webp" alt="" class="product__img">
+                                            <h4 class="product__title title-4">Название</h4>
+                                            <div class="product__desc">Описание</div>
+                                            <span class="product__price">Цена</span>
+                                        </div>
+                                        <div class="product">
+                                            <img src="./img/product/img-1.webp" alt="" class="product__img">
+                                            <h4 class="product__title title-4">Название</h4>
+                                            <div class="product__desc">Описание</div>
+                                            <span class="product__price">Цена</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-category__content product-category__content--hidden" data-tab-content id="tab-4">
+                                <div class="products">
+                                    <h3 class="products__title title-3">Браслеты</h3>
+                                    <div class="products__wrapper">
+                                        <div class="product">
+                                            <img src="./img/product/img-1.webp" alt="" class="product__img">
+                                            <h4 class="product__title title-4">Название</h4>
+                                            <div class="product__desc">Описание</div>
+                                            <span class="product__price">Цена</span>
+                                        </div>
+                                        <div class="product">
+                                            <img src="./img/product/img-2.webp" alt="" class="product__img">
+                                            <h4 class="product__title title-4">Название</h4>
+                                            <div class="product__desc">Описание</div>
+                                            <span class="product__price">Цена</span>
+                                        </div>
+                                        <div class="product">
+                                            <img src="./img/product/img-3.webp" alt="" class="product__img">
+                                            <h4 class="product__title title-4">Название</h4>
+                                            <div class="product__desc">Описание</div>
+                                            <span class="product__price">Цена</span>
+                                        </div>
+                                        <div class="product">
+                                            <img src="./img/product/img-1.webp" alt="" class="product__img">
+                                            <h4 class="product__title title-4">Название</h4>
+                                            <div class="product__desc">Описание</div>
+                                            <span class="product__price">Цена</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-category__content product-category__content--hidden" data-tab-content id="tab-5">
+                                <div class="products">
+                                    <h3 class="products__title title-3">Пусеты</h3>
+                                    <div class="products__wrapper">
+                                        <div class="product">
+                                            <img src="./img/product/img-1.webp" alt="" class="product__img">
+                                            <h4 class="product__title title-4">Название</h4>
+                                            <div class="product__desc">Описание</div>
+                                            <span class="product__price">Цена</span>
+                                        </div>
+                                        <div class="product">
+                                            <img src="./img/product/img-2.webp" alt="" class="product__img">
+                                            <h4 class="product__title title-4">Название</h4>
+                                            <div class="product__desc">Описание</div>
+                                            <span class="product__price">Цена</span>
+                                        </div>
+                                        <div class="product">
+                                            <img src="./img/product/img-3.webp" alt="" class="product__img">
+                                            <h4 class="product__title title-4">Название</h4>
+                                            <div class="product__desc">Описание</div>
+                                            <span class="product__price">Цена</span>
+                                        </div>
+                                        <div class="product">
+                                            <img src="./img/product/img-1.webp" alt="" class="product__img">
+                                            <h4 class="product__title title-4">Название</h4>
+                                            <div class="product__desc">Описание</div>
+                                            <span class="product__price">Цена</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="products">
+                                    <h3 class="products__title title-3">Пусеты с бриллиантами</h3>
+                                    <div class="products__wrapper">
+                                        <div class="product">
+                                            <img src="./img/product/img-1.webp" alt="" class="product__img">
+                                            <h4 class="product__title title-4">Название</h4>
+                                            <div class="product__desc">Описание</div>
+                                            <span class="product__price">Цена</span>
+                                        </div>
+                                        <div class="product">
+                                            <img src="./img/product/img-2.webp" alt="" class="product__img">
+                                            <h4 class="product__title title-4">Название</h4>
+                                            <div class="product__desc">Описание</div>
+                                            <span class="product__price">Цена</span>
+                                        </div>
+                                        <div class="product">
+                                            <img src="./img/product/img-3.webp" alt="" class="product__img">
+                                            <h4 class="product__title title-4">Название</h4>
+                                            <div class="product__desc">Описание</div>
+                                            <span class="product__price">Цена</span>
+                                        </div>
+                                        <div class="product">
+                                            <img src="./img/product/img-1.webp" alt="" class="product__img">
+                                            <h4 class="product__title title-4">Название</h4>
+                                            <div class="product__desc">Описание</div>
+                                            <span class="product__price">Цена</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="products">
+                                    <h3 class="products__title title-3">Пуссеты с муасанитами</h3>
+                                    <div class="products__wrapper">
+                                        <div class="product">
+                                            <img src="./img/product/img-1.webp" alt="" class="product__img">
+                                            <h4 class="product__title title-4">Название</h4>
+                                            <div class="product__desc">Описание</div>
+                                            <span class="product__price">Цена</span>
+                                        </div>
+                                        <div class="product">
+                                            <img src="./img/product/img-2.webp" alt="" class="product__img">
+                                            <h4 class="product__title title-4">Название</h4>
+                                            <div class="product__desc">Описание</div>
+                                            <span class="product__price">Цена</span>
+                                        </div>
+                                        <div class="product">
+                                            <img src="./img/product/img-3.webp" alt="" class="product__img">
+                                            <h4 class="product__title title-4">Название</h4>
+                                            <div class="product__desc">Описание</div>
+                                            <span class="product__price">Цена</span>
+                                        </div>
+                                        <div class="product">
+                                            <img src="./img/product/img-1.webp" alt="" class="product__img">
+                                            <h4 class="product__title title-4">Название</h4>
+                                            <div class="product__desc">Описание</div>
+                                            <span class="product__price">Цена</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+     
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="section__row">
+                    <div class="section__header">
+                        <h2 class="section__header-title title-2">Контакты</h2>
+                    </div>
+                    <div class="contact__wrapper">
+                        <div class="contact__content">
+                            <ul class="contact__list">
+                                <li class="contact__list-item">
+                                    <h5 class="contact__list-item__title title-5">Телефон</h5>
+                                    <a href="tel:" target="_blank" rel="nofollow noopener">
+                                        +7 (999) 165 26 77
+                                    </a>
+                                </li>
+                                <li class="contact__list-item">
+                                    <h5 class="contact__list-item__title title-5">Почта</h5>
+                                    <a href="mailto:" target="_blank" rel="nofollow noopener">
+                                        info@suzannecode.com
+                                    </a>
+                                </li>
+                                <li class="contact__list-item">
+                                    <h5 class="contact__list-item__title title-5">Часы работы</h5>
+                                    Ежедневно с 12 до 19
+                                </li>
+                                <li class="contact__list-item">
+                                    <h5 class="contact__list-item__title title-5">Посетите наш магазин</h5>
+                                    Москва, ул. Рочдельская <br> дом 15 стр 16 А
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="contact__img">
+                            <img src="./img/contact/contact-bg.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery" id="gallery">
+            <div class="section__header">
+                <h2 class="section__header-title title-2">Подписаться на инстаграм</h2>
+                <div class="section__header-subtitle">
+                    <a href="#!" class="" target="_blank" rel="nofollow noopener">@nameShop</a>
+                </div>
+            </div>
+            <div class="gallery__slider">
+                <div class="swiper mySwiperGallery">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./img/gallery/img-1.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/gallery/img-2.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/gallery/img-3.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/gallery/img-4.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/gallery/img-1.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/gallery/img-2.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__row">
+                <div class="footer__logo">
+                    <div class="logo">
+                        <img src="" alt="" class="logo__img"> LOGO
+                    </div>
+                </div>
+                <div class="footer__nav">
+                    <ul class="footer__list">
+                        <li class="footer__list-item">
+                            <a href="#about" class="footer__list-link">О нас</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#product-category" class="footer__list-link">Продукция</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#contact" class="footer__list-link">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__contact">
+                    <ul class="footer__list">
+                        <li class="footer__list-item">
+                            <svg width="27px" height="27px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#3e3e3e">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+                                <g id="SVGRepo_iconCarrier"> <path d="M12 18H12.01M11 6H13M9.2 21H14.8C15.9201 21 16.4802 21 16.908 20.782C17.2843 20.5903 17.5903 20.2843 17.782 19.908C18 19.4802 18 18.9201 18 17.8V6.2C18 5.0799 18 4.51984 17.782 4.09202C17.5903 3.71569 17.2843 3.40973 16.908 3.21799C16.4802 3 15.9201 3 14.8 3H9.2C8.0799 3 7.51984 3 7.09202 3.21799C6.71569 3.40973 6.40973 3.71569 6.21799 4.09202C6 4.51984 6 5.07989 6 6.2V17.8C6 18.9201 6 19.4802 6.21799 19.908C6.40973 20.2843 6.71569 20.5903 7.09202 20.782C7.51984 21 8.07989 21 9.2 21Z" stroke="#3e3e3e" stroke-width="0.8399999999999999" stroke-linecap="round" stroke-linejoin="round"/></g>
+                            </svg>
+                            <a href="tel:" target="_blank" rel="nofollow noopener" class="footer__list-link">
+                                +7 (999) 165 26 77
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <svg width="27px" height="27px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+                                <g id="SVGRepo_iconCarrier"> <path d="M4 18L9 12M20 18L15 12M3 8L10.225 12.8166C10.8665 13.2443 11.1872 13.4582 11.5339 13.5412C11.8403 13.6147 12.1597 13.6147 12.4661 13.5412C12.8128 13.4582 13.1335 13.2443 13.775 12.8166L21 8M6.2 19H17.8C18.9201 19 19.4802 19 19.908 18.782C20.2843 18.5903 20.5903 18.2843 20.782 17.908C21 17.4802 21 16.9201 21 15.8V8.2C21 7.0799 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V15.8C3 16.9201 3 17.4802 3.21799 17.908C3.40973 18.2843 3.71569 18.5903 4.09202 18.782C4.51984 19 5.07989 19 6.2 19Z" stroke="#000000" stroke-width="0.8399999999999999" stroke-linecap="round" stroke-linejoin="round"/></g>
+                            </svg>
+                            <a href="mailto:" target="_blank" rel="nofollow noopener" class="footer__list-link">
+                                info@suzannecode.com
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <svg width="27px" height="27px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#3e3e3e">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+                                <g id="SVGRepo_iconCarrier"> <path d="M12 7V12L13.5 14.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="#3e3e3e" stroke-width="0.8399999999999999" stroke-linecap="round" stroke-linejoin="round"/></g>
+                            </svg>
+                            Ежедневно с 12 до 19
+                        </li>
+                        <li class="footer__list-item">
+                            <svg width="27px" height="27px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#3e3e3e">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+                                <g id="SVGRepo_iconCarrier"> <path d="M10.4995 13.5002L20.9995 3.00017M10.6271 13.8282L13.2552 20.5862C13.4867 21.1816 13.6025 21.4793 13.7693 21.5662C13.9139 21.6415 14.0862 21.6416 14.2308 21.5664C14.3977 21.4797 14.5139 21.1822 14.7461 20.5871L21.3364 3.69937C21.5461 3.16219 21.6509 2.8936 21.5935 2.72197C21.5437 2.57292 21.4268 2.45596 21.2777 2.40616C21.1061 2.34883 20.8375 2.45364 20.3003 2.66327L3.41258 9.25361C2.8175 9.48584 2.51997 9.60195 2.43326 9.76886C2.35809 9.91354 2.35819 10.0858 2.43353 10.2304C2.52043 10.3972 2.81811 10.513 3.41345 10.7445L10.1715 13.3726C10.2923 13.4196 10.3527 13.4431 10.4036 13.4794C10.4487 13.5115 10.4881 13.551 10.5203 13.5961C10.5566 13.647 10.5801 13.7074 10.6271 13.8282Z" stroke="#3e3e3e" stroke-width="0.8399999999999999" stroke-linecap="round" stroke-linejoin="round"/> </g>
+                            </svg>
+                            Москва, ул. Рочдельская <br>дом 15 стр 16 А
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/hero-slider.js"></script>
+    <script src="./js/product-tab.js"></script>
+    <script src="./js/gallery-slider.js"></script>
+    <script src="./js/nav.js"></script>
+    
+</body>
+</html>
